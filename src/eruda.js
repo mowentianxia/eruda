@@ -226,13 +226,13 @@ export default {
   },
   _initTools(
     tool = [
-      'console',
-      'elements',
-      'network',
-      'resources',
-      'sources',
-      'info',
-      'snippets'
+      '控制台',
+      '元素',
+      '网络',
+      '资源',
+      '来源',
+      '信息',
+      '片段'
     ]
   ) {
     tool = toArr(tool)
